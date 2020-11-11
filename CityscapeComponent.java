@@ -29,7 +29,7 @@ public class CityscapeComponent extends JComponent
      * It does not need to be invoked explicitly.
      * 
      * @param g a reference to the Graphics object used for all drawing operations
-     *
+     *g
      */
 
     public void paintComponent(Graphics g)
