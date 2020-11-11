@@ -1,6 +1,7 @@
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JComponent;
+import java.awt.Color;
 
 /**
  * Class that creates instances of the classes that comprise the cityscape and delegates drawing the
@@ -20,7 +21,7 @@ public class CityscapeComponent extends JComponent
     // define the CityscapeComponent contructor and intiailize all instance variables
     // ...
     public CityscapeComponent(){
-        boat1 = new Boat(50,50);
+        boat1 = new Boat(50,50, Color.blue,Color.red,Color.black);
     }
     
     /**
