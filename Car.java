@@ -14,8 +14,8 @@ public class Car
 
    /**
       Constructs a car with a given top left corner.
-      @param x the x coordinate of the top left corner
-      @param y the y coordinate of the top left corner
+      @paramx the x coordinate of the top left corner
+      @paramy the y coordinate of the top left corner
    */
    public Car(int initialX, int initialY)
    {
